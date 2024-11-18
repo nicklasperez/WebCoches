@@ -19,10 +19,13 @@ Welcome to the **Carvilla** project! This is a simple and visually appealing HTM
 You can open `index.html` in your favorite browser to view the site.  
 
 ## Screenshots  
-![Header](Screenshots/header.png)
-![Featured Cars](Screenshots/FeaturedCars.png)
-![Selection Form](Screenshots/Grid.png)
-![Client Opinions](Screenshots/Clients.png)
+![Header](WebCoches/Screenshots/header.png)
+
+![Featured Cars](WebCoches/Screenshots/FeaturedCars.png)
+
+![Selection Form](WebCoches/Screenshots/Grid.png)
+
+![Client Opinions](WebCoches/Screenshots/Clients.png)
 
 ## Future Plans  
 - Make the website **responsive** for better usability on all devices.  
