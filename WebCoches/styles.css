@@ -1,0 +1,644 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 12px 5%;
+  padding: 40px;
+  position: relative;
+  z-index: 3;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.marca {
+  margin-right: auto;
+  font-size: 27px;
+  margin-left: 150px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.menu-items {
+  display: flex;
+  gap: 50px;
+  margin-right: 225px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.imagen {
+  width: 100%;
+  height: 110vh;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+  z-index: 0;
+}
+
+.menu_boton {
+  color: azure;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu_boton:hover {
+  color: #4f51f2;
+}
+
+.sombra {
+  background-color: rgba(19, 19, 119, 0.301);
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+.desired {
+  width: 60%;
+  height: 300px;
+  margin-left: 20%;
+  margin-top: 200px;
+  font-size: 23px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+
+.lorem {
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: larger;
+  text-align: center;
+}
+
+.boton1 {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  font-size: large;
+  color: white;
+  background-color: #4e4ffa;
+  border-radius: 5px;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.boton1:hover {
+  transform: scale(1.05);
+}
+
+.dropdown1 {
+  position: relative;
+  margin-top: 200px;
+  width: 70%;
+  height: 450px;
+  background-color: white;
+  margin-left: 15%;
+  border-radius: 10px;
+  z-index: 3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  width: 75%;
+  background-color: white;
+  z-index: 4;
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 4;
+}
+
+.labels {
+  color: #413c4c;
+  width: 100%;
+  padding-left: 50%;
+  padding-bottom: 10px;
+  padding-top: 20%;
+  font-size: 25px;
+}
+
+.dropbox {
+  width: 75%;
+  height: 100%;
+  margin-left: 25%;
+  font-size: 25px;
+  color: #8a90a4;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  outline: none;
+}
+
+.searchButton {
+  width: 200px;
+  height: 75px;
+  font-size: 25px;
+  color: white;
+  background-color: #4e4ffa;
+  border-radius: 5px;
+  border: none;
+  float: right;
+  margin-top: -205px;
+  margin-right: 75px;
+  transition: transform 0.3s ease;
+}
+
+.searchButton:hover {
+  transform: scale(1.05);
+}
+
+.segundaPestaña {
+  width: 100%;
+  height: 75vh;
+  background-color: white;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  background-color: white;
+  z-index: 4;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 100px;
+  gap: 30px;
+}
+
+.item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 4;
+  border: 1px solid lightgray;
+  height: 450px;
+  gap: 40px;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.linea {
+  width: 25px;
+  height: 2px;
+  background-color: #2020ea;
+  margin: 10px 0;
+}
+
+.labels2 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #50616c;
+}
+
+.texto {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #8a90a4;
+}
+
+.terceraPestaña {
+  width: 100%;
+  height: 90vh;
+  background-color: #f8f9fb;
+}
+
+.terceraCabecera {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+
+  gap: 20px;
+}
+
+.texto2 {
+  font-size: 20px;
+  color: #8a90a4;
+}
+
+.texto3 {
+  font-size: 20px;
+  color: #8a90a4;
+  margin-top: 20px;
+}
+
+.featured {
+  color: #444a54;
+  font-size: 40px;
+}
+
+.linea2 {
+  width: 100px;
+  height: 3px;
+  background-color: #2020ea;
+  margin-top: 20px;
+}
+
+.ferrari {
+  width: 60%;
+  height: 30vh;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  position: absolute;
+}
+
+.imgFerrari {
+  position: relative;
+}
+
+.textBox {
+  margin-top: 30px;
+  color: #3f4451;
+}
+
+.detailsDiv {
+  width: 100%;
+  height: 100px;
+}
+
+.detailsButton {
+  margin-top: 40px;
+  width: 170px;
+  height: 6vh;
+  background-color: #4e4ffa;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.detailsButton:hover {
+  transform: scale(1.05);
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  gap: -5px;
+  margin-top: 43vh;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.circle3 {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid gray;
+}
+
+.cuartaPestaña {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 150px 300px 150px;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+
+.imagenCoches {
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+.specs {
+  font-size: 16px;
+  color: #8a90a4;
+  width: 80%;
+  padding-top: 25px;
+  margin-left: -45px;
+}
+
+.specs2 {
+  font-size: 16px;
+  color: #8a90a4;
+  padding-top: 10px;
+}
+
+.linea3 {
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+}
+
+.miniPad {
+  padding-bottom: 15px;
+}
+
+.nombreCoche {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.precioCoche {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 10px;
+  font-size: 19px;
+}
+
+.quintaPestaña {
+  margin-top: 600px;
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f9fb;
+}
+
+.quintaCabecera {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  width: 75%;
+  margin-left: 12.5%;
+  z-index: 4;
+  border-radius: 5px;
+  gap: 50px;
+}
+
+.item4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+
+.clientImgDiv {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientImg {
+  width: 90px;
+  padding-top: 50px;
+}
+
+.clientTextDiv {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clientText {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 25px;
+  color: #767f8d;
+  text-align: center;
+}
+
+.clientNombresDiv {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientNombres {
+  font-size: 22px;
+  font-weight: bold;
+  color: #596375;
+  text-align: center;
+}
+
+.nombre1 {
+  margin-bottom: 10px;
+}
+
+.sextaPestaña {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.brandImg {
+  height: 80px;
+}
+
+.footer {
+  width: 100%;
+  height: 60vh;
+  background-color: #2a2d54;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorFooter {
+  width: 75%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.marcaFooter {
+  font-size: 30px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+  font-size: 25px;
+}
+
+.textoFooter {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.infoFooter {
+  color: #afc7e3;
+  font-size: 18px;
+}
+
+.col2 {
+  width: 15%;
+  padding-left: 30px;
+}
+
+.col2Title {
+  color: white;
+  margin-bottom: 45px;
+  font-size: 17px;
+}
+
+.aboutOption {
+  color: lightgray;
+  margin-bottom: 25px;
+}
+
+.aboutOption2 {
+  color: lightgray;
+  margin-bottom: 20px;
+}
+
+.col3 {
+  width: 15%;
+}
+
+.col3Title {
+  margin-top: 65px;
+}
+
+.col4 {
+  width: 15%;
+}
+
+.col5 {
+  width: 20%;
+}
+
+.email-container {
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  background-color: #26294d;
+}
+
+.email-container input[type="email"] {
+  border: none;
+  padding: 10px;
+  flex: 1;
+  background-color: #26294d;
+  outline: none;
+}
+
+.email-container button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #26294d;
+}
+
+.email-container button svg {
+  width: 20px;
+  height: 20px;
+  fill: #666c81;
+  background-color: #26294d;
+  border: none;
+}
+
+.contenedorCopyright{
+  background-color: #2a2d54;
+  height: 71px;
+  width: 100%;
+}
+
+.textoCopyright{
+  border-top: 1px solid rgb(158, 154, 154);
+  width: 75%;
+  margin-left: 12.5%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+
+}
+
+.aboutOption3 {
+  color: rgb(158, 154, 154);
+  padding-top: 5px;
+}
+
+.logoss {
+  margin-left: 990px;
+}
