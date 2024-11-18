@@ -19,7 +19,10 @@ Welcome to the **Carvilla** project! This is a simple and visually appealing HTM
 You can open `index.html` in your favorite browser to view the site.  
 
 ## Screenshots  
-Add screenshots of the website here, showing off different sections like the navigation bar, car showcases, and testimonial sections.
+![Header](Screenshots/header.png)
+![Featured Cars](Screenshots/FeaturedCars.png)
+![Selection Form](Screenshots/Grid.png)
+![Client Opinions](Screenshots/Clients.png)
 
 ## Future Plans  
 - Make the website **responsive** for better usability on all devices.  
